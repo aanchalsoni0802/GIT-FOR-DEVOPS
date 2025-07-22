@@ -1,0 +1,23 @@
+ Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\soniv\AppData\Local\Programs\Microsoft VS Co... 
+   2 git status
+   3 git rm --cached testing.py
+   4 git status
+   5 git add .
+   6 git status
+   7 git commit -m "added  testing files"
+   8 rm testing.py
+   9 git status
+  10 git restore testing.py
+  11 git status
+  12 git commit -m "added testing files"18 clear
+  19 git status
+  21 git remote add origin https://github.com/aanchalsoni0802/GIT-F... 
+  22 git remote -v
+  23 git push -u origin master
+  28 git remote -v
+  29 git remote set-url origin https://github.com/aanchalsoni0802/G... 
+  
+
+
